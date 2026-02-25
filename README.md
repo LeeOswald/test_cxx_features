@@ -1,5 +1,17 @@
-# test_cxx_features
-Check which C++ features your compiler supports
+# Check which C++ features your compiler supports
+
+### Building
+```
+g++ test_cxx_features.cpp -o test_cxx_features -std=c++26
+```
+### Running
+```
+./test_cxx_features
+```
+
+Example output for clang 21.1.8:
+
+```
 C++98 CORE (2/2)
 __cpp_exceptions                              1997-11  =  1997-11
 __cpp_rtti                                    1997-11  =  1997-11
@@ -828,3 +840,4 @@ __STDC__                                      1
 __STDC_HOSTED__                               1
 __DATE__                                      "Feb 25 2026"
 __TIME__                                      "07:50:44"
+```
